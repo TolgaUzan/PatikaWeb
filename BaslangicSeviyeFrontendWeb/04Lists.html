@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listeler Lists</title>
+</head>
+
+<body>
+
+    <h1>Listeler</h1>
+    <h2>Liste Çeşitleri</h2>
+
+
+    <!-- Sırasız Liste Unorder-->
+    <p>Sırasız Listeler Unordered List </p>
+    <ul>
+        <li>Html</li>
+        <li>Css</li>
+        <li>JavaScript</li>
+        <li>Php</li>
+    </ul>
+    <hr>
+
+    <!-- Sıralı Liste Order-->
+    <p>Sıralı Listeler Ordered List 1-2-3 I II III vb.</p>
+
+    <ol>
+        <li>Android Studio</li>
+        <li>Java</li>
+        <li>Kotlin</li>
+    </ol>
+
+    <hr>
+    <!-- Liste İçerisinde Liste Kullanımı -->
+    <p>Liste içerisinde liste kullanımı</p>
+
+    <ul>
+        <li>Html</li>
+        <li>Css</li>
+        <li>JavaScript</li>
+        <li>Android
+            <ol>
+                <li>Java</li>
+                <li>Kotlin</li>
+            </ol>
+        </li>
+    </ul>
+
+    <hr>
+    <!-- Sıralı Listede Özel ifade kullanımı -->
+    <p>Alfabetik yada Roma rakamı gibi sıralı liste yapmamız da mümkün</p>
+    <p>Bunun için ol type:"a", "A" ,"I", "i" gibi kullanım tipini belirtebiliriz.</p>
+    <ul>
+        <li>Html</li>
+        <li>Css</li>
+        <li>JavaScript</li>
+        <li>Android
+            <ol type="I">
+                <li>Java</li>
+                <li>Kotlin</li>
+            </ol>
+        </li>
+    </ul>
+    <hr>
+
+    <!-- Sırasız Listede Özel ifade kullanımı -->
+    <p>Sırasız Listelerdeki Nokta işaretini silmek yada değiştirmek için ise ;</p>
+    <p>
+        < ul style="list-style-type:none"> şeklinde noktayı kaldırabiliriz. Liste başındaki içi dolu daireyi değiştirmek
+            için ise disc, square, circle değerlerini kullanabiliriz.
+    </p>
+
+
+    <ul style="list-style-type:square ;">
+        <li>Html</li>
+        <li>Css</li>
+        <li>JavaScript</li>
+    </ul>
+    <ul style="list-style-type:none ;">
+        <li>Html</li>
+        <li>Css</li>
+        <li>JavaScript</li>
+    </ul>
+
+
+</body>
+
+</html>
